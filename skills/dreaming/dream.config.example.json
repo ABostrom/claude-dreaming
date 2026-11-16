@@ -1,0 +1,19 @@
+{
+  "memory_dir": "~/.claude/projects/<project-slug>/memory",
+  "main_branch": "master",
+  "transcripts_dir": "~/.claude/projects/<project-slug>",
+  "index_file": "MEMORY.md",
+  "index_target_lines": 40,
+  "eval_file": "dream-eval.md",
+  "current_work_note": "current-work.md",
+  "repos": [
+    { "path": "~/code/<project>", "branch": "origin/main" }
+  ],
+  "wiki_dir": "~/code/<project>/docs/wiki",
+  "design_globs": ["~/code/<project>/design/*.md"],
+  "issue": { "repo": "<owner>/<repo>", "number": 1 },
+  "promotion_targets": [
+    "~/code/<project>/.claude/skills/<skill-name>/SKILL.md",
+    "~/code/<project>/CLAUDE.md"
+  ]
+}
